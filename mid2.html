@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            background-color: silver;
+        }
+        
+        .h9 {
+            background-color: rgb(74, 74, 247);
+            margin: 0px;
+            padding: 50px 100px 50px 100px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        p {
+            text-align: center;
+            background-color: red;
+            border: solid;
+            margin: 0;
+            padding-bottom: 40px 100px 0px 20px;
+            height: 50px;
+            width: 200px;
+        }
+        
+        p:hover {
+            background-color: brown;
+            color: white;
+        }
+        
+        p:active {
+            color: white;
+            background-color: black;
+        }
+        
+        .butT {
+            float: left;
+            margin: 250px 450px 50px;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header class="h9" id="V1">Salman</header>
+        <div class="butT">
+            <p onclick="changeText();">Change My Name</p>
+            <br>
+            <p onclick="alaT();">Alart My Name</p>
+        </div>
+
+    </div>
+    <script>
+        let arr =["a","c","d","e","f","g"]
+        if(arr.length===7){
+            console.log('jjjj')
+        }
+        else {
+            console.log('ddd')
+        }
+        function changeText() {
+            document.getElementById('V1').innerHTML = 'Al-Qasmah'
+        };
+
+        function alaT() {
+            window.alert("Salman AL-Qasmah")
+        };
+    </script>
+</body>
+
+</html>
+"type": "pwa-msedge",
