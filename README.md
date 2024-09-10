@@ -1,1 +1,1 @@
-# MyStuff
+# MyProjects
